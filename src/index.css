@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Main.jsx */
+
+#root {
+  @apply w-full h-screen flex justify-center items-center bg-customSlate-100;
+}
+
+/* App.jsx */
+
+.app {
+  @apply w-4/6 flex font-plusSans bg-white rounded-2xl shadow-lg my-16;
+}
+
+/* InputSection.jsx */
+
+.inputSection {
+  @apply w-1/2 flex flex-col bg-white px-6 py-8 rounded-tl-2xl rounded-bl-2xl;
+}
+
+/* Header.jsx */
+
+.header {
+  @apply flex justify-between items-center mb-8;
+}
+
+.title {
+  @apply text-2xl text-customSlate-900 font-bold;
+}
+
+.clearBtn {
+  @apply text-base text-customSlate-900 font-medium underline cursor-pointer hover:text-customSlate-500;
+}
+
+/* Form.jsx */
+
+.gridInput {
+  @apply flex gap-6;
+}
+
+.radioInputContainer {
+  @apply mb-7 flex flex-col;
+}
+
+.errorSpan {
+  @apply text-errorRed text-sm font-semibold mt-2;
+}
+
+/* InputField.jsx */
+
+.inputField {
+  @apply mb-6 flex flex-col;
+}
+
+.label {
+  @apply mb-2 text-customSlate-900 font-semibold;
+}
+
+.removeArrow::-webkit-inner-spin-button,
+.removeArrow::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.removeArrow {
+  -moz-appearance: textfield;
+}
+
+/* RadioInputOption.jsx */
+
+.radioLabel {
+  @apply text-customSlate-900 font-semibold;
+}
+
+/* SubmitBtn.jsx */
+
+.submitBtn {
+  @apply flex w-9/12 justify-center items-center bg-lime py-3.5 text-lg font-bold text-customSlate-900 rounded-full;
+}
+
+/* OutputSection.jsx */
+
+.outputSection {
+  @apply w-1/2 flex flex-col items-center  px-7 py-8 bg-outputSectionBG rounded-bl-[75px] rounded-tr-2xl rounded-br-2xl;
+}
+
+/* OutputHead.jsx */
+
+.headH1 {
+  @apply text-white text-xl font-bold mb-4;
+}
+
+.headPara {
+  @apply text-base text-customSlate-500;
+}
+
+/* OutputResult.jsx */
+
+.resultContainer {
+  @apply w-full px-7 py-8 rounded-lg bg-resultBg border-t-4 border-t-lime;
+}
