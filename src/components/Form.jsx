@@ -9,7 +9,7 @@ export default function Form(props) {
     register,
     handleSubmit,
     reset,
-    formState: { errors, isSubmitSuccessful },
+    formState: { errors },
   } = useForm();
 
   const onSubmit = (data) => {
