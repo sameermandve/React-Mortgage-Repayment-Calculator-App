@@ -86,6 +86,10 @@
   @apply w-1/2 flex flex-col items-center  px-7 py-8 bg-outputSectionBG rounded-bl-[75px] rounded-tr-2xl rounded-br-2xl;
 }
 
+.preOutputSection {
+  @apply w-1/2 flex flex-col items-center justify-center  px-7 py-8 bg-outputSectionBG rounded-bl-[75px] rounded-tr-2xl rounded-br-2xl;
+}
+
 /* OutputHead.jsx */
 
 .headH1 {
