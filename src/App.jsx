@@ -108,7 +108,9 @@ function App() {
               required
             />
             {errors?.mortgageType ? (
-              <span className="errorSpan">{errors.mortgageType.message}</span>
+              <span className="mt-0 text-sm font-semibold text-errorRed">
+                {errors.mortgageType.message}
+              </span>
             ) : null}
           </div>
 

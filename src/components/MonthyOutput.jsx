@@ -12,11 +12,11 @@ export default function MonthyOutput({
   const newB = Intl.NumberFormat("en-US", options).format(b);
 
   return (
-    <div className="pb-7 mb-7 border-b-2 border-b-customSlate-700">
-      <p className="text-base text-customSlate-500 mb-4 text-wrap">
+    <div className="pb-6 mb-6 border-b-2 border-b-customSlate-700">
+      <p className="mb-3 text-base text-customSlate-500 text-wrap">
         Your monthly repayments
       </p>
-      <h1 className="text-5xl text-lime font-bold text-wrap">
+      <h1 className="text-4xl font-bold md:text-5xl text-lime text-wrap">
         £{debtType === "repayment" ? newA : newB}
       </h1>
     </div>

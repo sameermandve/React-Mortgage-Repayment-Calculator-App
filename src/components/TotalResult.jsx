@@ -6,11 +6,13 @@ export default function TotalResult({ totalPayment }) {
   let newTotalPayment = Intl.NumberFormat("en-US", options).format(c);
 
   return (
-    <div>
-      <p className="text-base text-customSlate-500 mb-2 text-wrap">
+    <div className="mb-1">
+      <p className="mb-2 text-base md:text-sm lg:text-base text-customSlate-500 text-wrap">
         Total you'll repay over the term
       </p>
-      <h1 className="text-2xl text-white font-bold">£{newTotalPayment}</h1>
+      <h1 className="text-2xl font-bold text-white md:text-xl lg:text-2xl">
+        £{newTotalPayment}
+      </h1>
     </div>
   );
 }
