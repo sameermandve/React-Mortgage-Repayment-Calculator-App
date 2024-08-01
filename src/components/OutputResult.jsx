@@ -30,15 +30,15 @@ export default function OutputResult({
   return (
     <>
       <div className="mb-10">
-        <h1 className="headH1">Your Results</h1>
-        <p className="headPara">
+        <h1 className="mb-4 text-2xl font-semibold text-white">Your Results</h1>
+        <p className="text-base text-customSlate-500">
           Your results are shown below based on the information you provided. To
           adjust the results, edit the form and click "calculate repayments"
           again.
         </p>
       </div>
 
-      <div className="resultContainer">
+      <div className="w-full px-5 py-6 border-t-4 rounded-lg  bg-resultBg border-t-lime">
         <MonthyOutput
           debtType={mortgageTypeValue}
           monthlyPayment={monthlyPay}

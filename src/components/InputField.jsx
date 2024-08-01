@@ -11,8 +11,11 @@ const InputField = forwardRef(
     let inputSpanStyles = `h-full font-bold  bg-customSlate-100  px-5 py-3 shrink-0 ${name === "amount" ? `rounded-l` : `rounded-r`} ${errors ? `text-white bg-errorRed peer-focus:bg-errorRed peer-focus:text-white group-hover:bg-errorRed group-hover:text-white` : `text-customSlate-700 bg-customSlate-100 peer-focus:bg-lime peer-focus:text-customSlate-900 group-hover:bg-lime group-hover:text-customSlate-900`}`;
 
     return (
-      <div className="inputField">
-        <label className="label" htmlFor={name}>
+      <div className="flex flex-col mb-6">
+        <label
+          className="mb-2 font-semibold text-customSlate-700"
+          htmlFor={name}
+        >
           {label}
         </label>
         <div className={inputContainerStyles}>
@@ -23,7 +26,7 @@ const InputField = forwardRef(
             step={step}
             id={name}
             name={name}
-            className="peer border-spacing-0 outline-0 w-full px-2 py-2 rounded-md text-customSlate-900 font-bold text-lg hover:cursor-pointer removeArrow"
+            className="w-full px-2 py-2 text-lg font-bold rounded-md peer border-spacing-0 outline-0 text-customSlate-900 hover:cursor-pointer removeArrow"
           />
           <span className={inputSpanStyles}>{inputLabel}</span>
         </div>
