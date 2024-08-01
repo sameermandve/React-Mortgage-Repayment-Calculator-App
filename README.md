@@ -6,7 +6,7 @@ Created by Sameer Mandve.
 
 ## Overview -
 
-This is practice "Mortgage Repayment Calculator" created using HTML , CSS and JS.
+This is practice responsive "Mortgage Repayment Calculator" created using HTML , CSS and JS.
 
 ### Users should be able to:
 
@@ -14,6 +14,7 @@ This is practice "Mortgage Repayment Calculator" created using HTML , CSS and JS
 - See form validation messages if any field is incomplete
 - Complete the form only using their keyboard
 - See hover and focus states for all interactive elements on the page
+- View the optimal layout depending on their device's screen size
 
 ### Expected behaviour
 
@@ -28,8 +29,8 @@ This is practice "Mortgage Repayment Calculator" created using HTML , CSS and JS
 
 ### Links -
 
-- Live Site : https://mortgage-repayment-calculator-app-red.vercel.app/
-- Git Repo : https://github.com/sameermandve/Mortgage-Repayment-Calculator-App
+- Live Site : https://react-mortgage-repayment-calculator-app.vercel.app/
+- Git Repo : https://github.com/sameermandve/React-Mortgage-Repayment-Calculator-App.git
 
 ### Built using -
 
@@ -37,6 +38,7 @@ This is practice "Mortgage Repayment Calculator" created using HTML , CSS and JS
 - JSX
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Library
 - [React](https://reactjs.org/) - JS library
+- [React Hook Form](https://react-hook-form.com/)
 - Google Fonts
 
 ### 🚀🚀
