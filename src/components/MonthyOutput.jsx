@@ -16,7 +16,7 @@ export default function MonthyOutput({
       <p className="mb-3 text-base text-customSlate-500 text-wrap">
         Your monthly repayments
       </p>
-      <h1 className="text-4xl font-bold md:text-5xl text-lime text-wrap">
+      <h1 className="text-4xl font-bold md:text-5xl text-lime text-wrap lg:max-xl:text-3.5xl">
         £{debtType === "repayment" ? newA : newB}
       </h1>
     </div>

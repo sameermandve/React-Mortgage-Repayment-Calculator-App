@@ -30,7 +30,9 @@ export default function OutputResult({
   return (
     <>
       <div className="mb-10">
-        <h1 className="mb-4 text-2xl font-semibold text-white">Your Results</h1>
+        <h1 className="mb-4 text-2xl font-semibold text-white lg:max-xl:text-xl">
+          Your Results
+        </h1>
         <p className="text-base text-customSlate-500">
           Your results are shown below based on the information you provided. To
           adjust the results, edit the form and click "calculate repayments"
@@ -38,7 +40,7 @@ export default function OutputResult({
         </p>
       </div>
 
-      <div className="w-full px-5 py-6 border-t-4 rounded-lg  bg-resultBg border-t-lime">
+      <div className="w-full px-5 py-6 border-t-4 rounded-lg bg-resultBg border-t-lime">
         <MonthyOutput
           debtType={mortgageTypeValue}
           monthlyPayment={monthlyPay}

@@ -23,12 +23,12 @@ function App() {
 
   return (
     // App.jsx
-    <div className="flex flex-col w-full h-full md:max-lg:min-h-screen lg:flex-row lg:bg-white md:m-8 font-plusSans lg:w-4/6 lg:rounded-2xl md:shadow-lg">
+    <div className="flex flex-col w-full h-full md:max-lg:min-h-screen lg:flex-row lg:bg-white md:m-8 md:my-16 font-plusSans lg:w-4/6 lg:rounded-2xl md:shadow-lg lg:max-xl:w-3/4">
       {/* InputSection */}
       <div className="flex flex-col w-full px-6 py-8 bg-white md:rounded-tl-2xl md:rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl">
         {/* Header Section which includes title and clear button */}
         <header className="flex flex-col mb-5 md:flex-row md:justify-between md:items-center md:mb-8">
-          <h1 className="mb-2 text-2xl font-bold md:text-2xl text-customSlate-900 md:mb-0">
+          <h1 className="mb-2 text-2xl font-bold md:text-2xl text-customSlate-900 md:mb-0 lg:max-xl:text-xl">
             Mortgage Calculator
           </h1>
           <h3
@@ -50,7 +50,7 @@ function App() {
             inputLabel="£"
             errors={
               errors?.amount ? (
-                <span className="mt-2 text-sm font-semibold text-errorRed">
+                <span className="mt-2 text-sm font-semibold md:max-lg:text-base xl:text-base lg:max-xl:text-15px text-errorRed">
                   {errors.amount.message}
                 </span>
               ) : null
@@ -58,7 +58,7 @@ function App() {
             required
           />
 
-          <div className="md:grid md:grid-cols-2 md:gap-7">
+          <div className="md:grid md:grid-cols-2 md:max-lg:gap-7 lg:max-xl:gap-5 xl:gap-7">
             <InputField
               {...register("years", { required: "This field is required" })}
               label="Mortgage Years"
@@ -68,7 +68,7 @@ function App() {
               inputLabel="years"
               errors={
                 errors?.years ? (
-                  <span className="mt-2 text-sm font-semibold text-errorRed">
+                  <span className="mt-2 text-sm font-semibold md:max-lg:text-base lg:max-xl:text-15px xl:text-base text-errorRed">
                     {errors.years.message}
                   </span>
                 ) : null
@@ -87,7 +87,7 @@ function App() {
               inputLabel="%"
               errors={
                 errors?.interestRate ? (
-                  <span className="mt-2 text-sm font-semibold text-errorRed">
+                  <span className="mt-2 text-sm font-semibold md:max-lg:text-base lg:max-xl:text-15px xl:text-base text-errorRed">
                     {errors.interestRate.message}
                   </span>
                 ) : null
@@ -121,7 +121,7 @@ function App() {
               required
             />
             {errors?.mortgageType ? (
-              <span className="mt-0 text-sm font-semibold text-errorRed">
+              <span className="mt-0 text-sm font-semibold md:max-lg:text-base lg:max-xl:text-15px xl:text-base text-errorRed">
                 {errors.mortgageType.message}
               </span>
             ) : null}

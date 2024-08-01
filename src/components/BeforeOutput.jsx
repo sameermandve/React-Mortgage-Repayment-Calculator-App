@@ -8,7 +8,7 @@ export default function BeforeOutput() {
         alt="illustration"
         className="w-[175px] h-[175px]"
       />
-      <h1 className="mt-4 mb-4 text-xl font-semibold text-white">
+      <h1 className="mt-4 mb-4 text-xl font-semibold text-white md:max-lg:text-2xl xl:text-2xl">
         Results shown here
       </h1>
       <p className="text-base text-center text-customSlate-500">

@@ -21,6 +21,10 @@ export default {
       fontFamily: {
         plusSans: ["Plus Jakarta Sans", "sans-serif"],
       },
+      fontSize: {
+        "3.5xl": ["34px", "38px"],
+        "15px": ["15px", "20px"],
+      },
     },
   },
   plugins: [],

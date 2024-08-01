@@ -10,7 +10,7 @@ export default function TotalResult({ totalPayment }) {
       <p className="mb-2 text-base md:text-sm lg:text-base text-customSlate-500 text-wrap">
         Total you'll repay over the term
       </p>
-      <h1 className="text-2xl font-bold text-white md:text-xl lg:text-2xl">
+      <h1 className="text-2xl font-bold text-white md:max-lg:text-xl lg:max-xl:text-xl">
         £{newTotalPayment}
       </h1>
     </div>
