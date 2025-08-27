@@ -38,7 +38,7 @@ This project was built with a modern tech stack, including:
 
 * * *
 
-### Screenshot -
+## Screenshot -
 
 ![](./src/assets/design/desktop-design-empty.jpg)
 
