@@ -78,4 +78,4 @@ You'll need to have Node.js and npm (or yarn) installed on your machine.
 
 ## Acknowledgments
 
-*   This project is a solution to a challenge from [Frontend Mentor](https://www.frontendmentor.io/).
+*   This project is a solution to a challenge from [Frontend Mentor]([https://www.frontendmentor.io/](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73)).
